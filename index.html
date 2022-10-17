@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Taco Space</title>
+</head>
+<body>
+
+    <!-- Cabezero -->
+
+    <header>
+        <h1>Tacos Space, desde 2022</h1>
+    </header>
+
+    <!-- Sección01 -->
+
+    <section>
+        <img src="Img/Taco Space.png" alt="Logo tacos Space" width="800px">
+
+        <h2>Menú</h2>
+
+        <h3>Tacos grandes</h3>
+    <p>Todos los tacos incluyen nopales y cebollas</p>
+        <li>Bisteck ........ $30</li>
+        <li>Chorizo ........ $30</li>
+        <li>Chuleta ........ $30</li>
+        <li>Pastor ........ $30</li>
+        <li>Campechanos ........ $30</li>
+ 
+        <h3>Tacos pequeños</h3>
+    <p>Con cilantro y cebolla</p>
+        <li>Bisteck ........ $15</li>
+        <li>Chorizo ........ $15</li>
+        <li>Chuleta ........ $15</li>
+        <li>Pastor ........ $15</li>
+        <li>Campechanos ........ $15</li>
+ 
+        <h3>Especiales</h3>
+    <p>Haz tu combo con refresco por $10 más</p>
+
+    <dl>
+        <dt><b>Labrador</b> ........ $40</dt>
+        <dd>- Tortilla de maiz con pollo asado ........ $40</dd>
+        <dt><b>Pastor aleman</b> ........ $40</dt>
+        <dd>- Tortilla de harina con carne de res y queso ........ $40</dd>
+        <dt><b>Pug</b> ........ $40</dt>
+        <dd>- Tortilla de maiz con chuleta ........ $40</dd>
+        <dt><b>Adoptado</b> ........ $40</dt>
+        <dd>- Tortilla de maiz con pastor ........ $40</dd>
+    </dl>
+    </section>
+
+    <hr>
+
+    <!-- Sección02 -->
+
+    <section>
+        <h2>Ubicación</h2>
+        <h3>Sucursales</h3>
+        
+        <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Ubicación</th>
+                    <th>Horarios</th>
+                </tr>
+                <tr>
+                    <td>Centro</td>
+                    <td><a href="https://goo.gl/maps/nj48Qbb3tzqMG1hU9" target="_blank">DC. Polanco Pavilion, Av. Ejército Nacional Mexicano 980, Polanco.</a></td>
+                    <td>L - D 24H</td>
+                </tr>
+                <tr>
+                    <td>Sur</td>
+                    <td><a href="https://goo.gl/maps/SrniRj4Kb29X3yzg8" target="_blank">Av. F. C. de Cuernavaca 50, Lomas - Virreyes.</a></td>
+                    <td>L - D 5pm - 3am</td>
+                </tr>
+                <tr>
+                    <td>Norte</td>
+                    <td><a href="https://goo.gl/maps/ypLyLLN8MufE3PuQ7" target="_blank">Antonio Dovali Jaime 70, Santa Fe, Lomas de Sta Fé, Álvaro Obregón.</a></td>
+                    <td>L - D 5pm - 3am</td>
+                </tr>
+        </table>
+    </section>
+
+        <hr>
+
+        <!-- Sección03 -->
+
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedidio aquí :3</h3>
+
+        <!-- Formulario -->
+
+        <form action="">
+
+            <p>¿De qué taquerias quieres?</p>
+            <select name="" id="">
+                <option value="Norte">Norte</option>
+                <option value="Centro">Centro</option>
+                <option value="">Sur</option>
+            </select>
+
+            <p>¿De qué saber de tacos quieres?</p>
+            <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+            <label for="Bisteck">Bisteck:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="Bisteck" name="BisteckNumber" placeholder="Cantidad" min="1" pattern="^[0-9]+">
+            <br>
+
+            <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+            <label for="Chorizo">Chorizo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="Chorizo" name="ChorizoNumber" placeholder="Cantidad" min="1" pattern="^[0-9]+">
+            <br>
+
+            <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+            <label for="Pastor">Pastor:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="Pastor" name="PastorNumber" placeholder="Cantidad" min="1" pattern="^[0-9]+">
+            <br>
+
+            <input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">
+            <label for="Chuleta">Chuleta:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="Chuleta" name="ChuletaNumber" placeholder="Cantidad" min="1" pattern="^[0-9]+">
+            <br>
+
+            <input type="checkbox" id="Campechanos" name="Campechanos" value="Campechanos">
+            <label for="Campechanos">Campechanos:&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="Campechanos" name="CampechanosNumber" placeholder="Cantidad" min="1" pattern="^[0-9]+">
+            <br>
+            <br>
+
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="Nombre" placeholder="¿Cómo te llamas?" required>
+            <br>
+            <br>
+
+            <label for="Teléfono">Teléfono:</label>
+            <input type="tel" name="Teléfono" id="Teléfono" placeholder="Número teléfonico"  minlength="10" maxlength="10" required>
+            <br>
+            <br>
+            
+            <label for="Dirección">Dirección:</label>
+            <input type="text" name="Dirección" id="Dirección" placeholder="¿A dónde lo mandamos?" required>
+            <br>
+            <br>
+
+            <button type="submit">Enviar pedido</button>
+        </form>
+
+    </section>
+</body>
+</html>
